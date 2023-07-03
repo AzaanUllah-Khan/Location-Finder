@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fcfcfc;
+    transition: all 0.3s ease-in-out;
+}
+
+body.dark-mode {
+    background-color: #4c4c4c;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#getLocationBtn {
+    display: block;
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#getLocationBtn:hover {
+    background-color: #45a049;
+}
+
+#locationContainer {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#mapContainer {
+    height: 500px;
+    margin-top: 20px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+}
+
+#changeModeBtn {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    background-color: #999;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#changeModeBtn:hover {
+    background-color: #777;
+}
